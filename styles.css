@@ -4,13 +4,16 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 20px;
   margin: 0;
 }
 
 /* Header */
 header {
-  display: flex;
   background-color: #7db1de;
+  color: #fff;
+  text-align: center;
+  padding: 60px;
 }
 
 nav {
@@ -35,4 +38,28 @@ nav a:hover {
   color: #000;
 }
 
+/* Column container */
 
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Side bar - left column */
+.side-column {
+  flex: 40%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.src-img {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Main Column */
+.main-column {
+  flex: 60%;
+  background-color: #fff;
+  padding: 20px; 
+}
