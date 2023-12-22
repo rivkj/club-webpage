@@ -97,3 +97,9 @@ nav a:hover {
   padding: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+  .column-container, nav {   
+    flex-direction: column;
+  }
+}
