@@ -56,12 +56,22 @@ nav a:hover {
 }
 
 .side-column img {
-  padding: 16px;
+  padding: 2em;
+}
+
+#book-list {
+  text-align: center;
+  padding: 2rem;
 }
 
 .review-quote {
   background-color: #7db1de;
-  padding: 4rem;
+  padding: 9rem;
+}
+
+.book-club-banner {
+  width: 100%;
+  padding-top: 4rem;
 }
 
 /* Main Column */
@@ -77,8 +87,13 @@ nav a:hover {
   padding: 1rem;
 }
 
+.silent-b-club {
+  font-size: 25px;
+}
+
 /* Footer */
 
-.footer {
+#footer {
   padding: 20px;
+  text-align: center;
 }
